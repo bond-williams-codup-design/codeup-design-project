@@ -18,10 +18,19 @@
 }
 
 
-p, table, li, ul{
+p, table, li, ul, a{
     font-family: var(--plain-text);
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--header-text);
+}
+
+.project-Logo {
+    width: var(--logo-w-h);
+    height: var(--logo-w-h);
+}
+
+.custom-nav-text {
+    font-size: 2em;
 }
