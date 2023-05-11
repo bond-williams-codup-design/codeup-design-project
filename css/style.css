@@ -1,0 +1,27 @@
+:root{
+    /* font styles */
+    --plain-text: 'Abel', sans-serif;
+    --header-text: 'Anton', sans-serif;
+
+    /* color palette */
+    --bg-custome-page: #F0F0F0;
+    --bg-custome-card-border: #E6E6E6;
+    --custome-boarder-circle-color: #FFF;
+    --bg-custom-design-color: #E6563B;
+    --bg-custom-develop-color: #EB9D3A;
+    --bg-custom-support-color: #7CB06C;
+    --bg-custom-host-color: #00ABA9;
+
+    /* custom width and height */
+    --logo-w-h: 105px;
+    --icons-w-h: 18px;
+}
+
+
+p, table, li, ul{
+    font-family: var(--plain-text);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--header-text);
+}
