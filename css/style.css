@@ -28,6 +28,7 @@ p, table, li, ul, a{
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--header-text);
+    text-align: center;
 }
 
 .project-Logo {
@@ -37,4 +38,12 @@ h1, h2, h3, h4, h5, h6{
 
 .custom-nav-text {
     font-size: 2em;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2.5em;
 }
