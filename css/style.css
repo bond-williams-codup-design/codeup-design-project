@@ -26,7 +26,7 @@ p, table, li, ul, a{
     font-family: var(--plain-text);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, span{
     font-family: var(--header-text);
     text-align: center;
 }
@@ -46,4 +46,24 @@ h1{
 
 h2{
     font-size: 2.5em;
+}
+
+.custom-circle{
+    width: 105px;
+    height: 105px;
+    border: .50em solid var(--custome-boarder-circle-color);
+    font-weight: bold;
+}
+
+.custom-design{
+    background-color: var(--bg-custom-design-color);
+}
+.custom-develop{
+    background-color: var(--bg-custom-develop-color);
+}
+.custom-support{
+    background-color: var(--bg-custom-support-color);
+}
+.custom-host{
+    background-color: var(--bg-custom-host-color);
 }
