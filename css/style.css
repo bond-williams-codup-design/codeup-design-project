@@ -14,7 +14,7 @@
 
     /* custom width and height */
     --logo-w-h: 53px;
-    --icons-w-h: 32px;
+    --icons-w-h: 26px;
 }
 
 body{
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, span{
 
 .fi {
     width: 100%;
-    height: auto;
+    aspect-ratio: 3/2;
     border: .50em solid var(--bg-custom-card-border);
 }
 
