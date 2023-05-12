@@ -26,15 +26,29 @@ p, table, li, ul, a{
     font-family: var(--plain-text);
 }
 
-h1, h2, h3, h4, h5, h6, span{
+h1, h2,  span{
     font-family: var(--header-text);
     text-align: center;
+}
+h3, h4, h5, h6{
+    font-family: var(--header-text);
+    text-align: left;
 }
 
 .fi {
     width: 100%;
     aspect-ratio: 3/2;
     border: .50em solid var(--bg-custom-card-border);
+}
+
+.custom-small-image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: .25em solid var(--bg-custom-card-border);
+}
+
+.custom-max-height{
+    height: 100%;
 }
 
 .project-Logo {
