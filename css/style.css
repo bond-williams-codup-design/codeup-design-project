@@ -14,7 +14,7 @@
 
     /* custom width and height */
     --logo-w-h: 53px;
-    --icons-w-h: 18px;
+    --icons-w-h: 32px;
 }
 
 body{
@@ -29,6 +29,12 @@ p, table, li, ul, a{
 h1, h2, h3, h4, h5, h6, span{
     font-family: var(--header-text);
     text-align: center;
+}
+
+.fi {
+    width: 100%;
+    height: auto;
+    border: .50em solid var(--bg-custom-card-border);
 }
 
 .project-Logo {
@@ -52,6 +58,12 @@ h2{
     width: 105px;
     height: 105px;
     border: .50em solid var(--custome-boarder-circle-color);
+    font-weight: bold;
+}
+.custom-circles-small{
+    font-family: var(--header-text);
+    width: var(--icons-w-h);
+    height: var(--icons-w-h);
     font-weight: bold;
 }
 
