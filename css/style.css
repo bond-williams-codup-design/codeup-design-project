@@ -107,5 +107,40 @@ h2{
     .custom-center-row{
         width: 600px;
     }
+    
+    @keyframes roleRight {
+        0% {rotate: z 0deg; left: 0px;}
+        50% {rotate: z 90deg; left: 50px;}
+        100% {rotate: z 0deg; left: 0px;}
+    }
+
+    .animate-design {
+        position: relative;
+        animation-name: roleRight;
+        animation-duration: 4s;
+        animation-delay: 2000ms;
+        animation-timing-function: ease-in-out;
+    }
+    .animate-develop {
+        position: relative;
+        animation-name: roleRight;
+        animation-duration: 4s;
+        animation-delay: 2150ms;
+        animation-timing-function: ease-in-out;
+    }
+    .animate-support {
+        position: relative;
+        animation-name: roleRight;
+        animation-duration: 4s;
+        animation-delay: 2300ms;
+        animation-timing-function: ease-in-out;
+    }
+    .animate-host {
+        position: relative;
+        animation-name: roleRight;
+        animation-duration: 4s;
+        animation-delay: 2450ms;
+        animation-timing-function: ease-in-out;
+    }
 }
 
